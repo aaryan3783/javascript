@@ -60,3 +60,25 @@ false=> 0;
 
 
 */
+
+
+// operator
+
+console.log(2+2);
+console.log(2-2);
+console.log(2/2);
+console.log(2**2);
+console.log(2*2);
+console.log(2%2);
+
+let str1='aaru';
+let str2=" bhai";
+console.log(str1+str2);
+
+console.log("1"+2);
+console.log(2+"1");
+console.log(1+2+"3");
+console.log("1"+2+3);
+
+let game=100;
+console.log(++game);
