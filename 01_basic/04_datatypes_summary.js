@@ -26,7 +26,8 @@ let userOne={
 }
 
 console.log(userOne.email);// dot(.) to access objects
+//here direct reference is given not copy
 let userTwo=userOne;
-userTwo.name="aaryan.cse.21@nitap.ac.in";
+userTwo.email="aaryan.cse.21@nitap.ac.in";
 console.log(userTwo.email);
 
