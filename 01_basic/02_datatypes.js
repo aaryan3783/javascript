@@ -18,6 +18,9 @@ undefined==> it is a data type and its means is value is not defined.
 symbol=>unique
 
 null==> object data type and it means value is null.
+console.log(typeof null). :-  object
+console.log(typeof undefined) :- undefined
+
 typeof :- use to check type of data
 ex:- console.log(typeof "aaryan");
 console.log(typeof 123);

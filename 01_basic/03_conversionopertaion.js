@@ -2,7 +2,11 @@ let score=null;
 
 console.log(typeof score);
 
+// + is used to change its typeof value from object to number and initialise a value of 0(zero)
 let valueIntNumber=+(score);
+//or number(score)
+
+
 console.log(typeof valueIntNumber);
 console.log(valueIntNumber);
 
