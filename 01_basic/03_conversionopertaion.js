@@ -79,10 +79,16 @@ let str1='aaru';
 let str2=" bhai";
 console.log(str1+str2);
 
+
+//agar string sphle h tho smko string ke jayse condier krega aur agar string last mai tho numbers ko phle convert kr lega aur phir string ka convert kr dega
 console.log("1"+2);
 console.log(2+"1");
 console.log(1+2+"3");
 console.log("1"+2+3);
 
 let game=100;
-console.log(++game);
+//postflix :- first assign the value and then increment the value
+console.log(game++);
+//prefix :- first increment and then assign the value
+myGame=100;
+console.log(++myGame);
