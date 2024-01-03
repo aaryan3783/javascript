@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur code</h1>
+    <button id ='stop'>stop</button>
+
+
+
+</body>
+<script>
+//settimeout
+//take callback, time
+//execute the function after the given time
+setTimeout(()=>{
+    console.log('aaryan');
+},2000)
+
+//set interval repeate the fun. after the given time
+// setInterval(callback function, time)
+
+const changeText=function(){
+    document.querySelector('h1').innerText='best JS series by aaryan'
+}
+
+const changeMe=setTimeout(changeText,5000);
+
+// clearTimeout()
+document.querySelector('#stop').addEventListener('click',(e)=>{
+    clearTimeout(changeMe)
+    console.log("stopped");
+})
+
+</script>
+
+</html>
