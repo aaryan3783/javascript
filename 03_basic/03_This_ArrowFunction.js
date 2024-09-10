@@ -13,7 +13,7 @@ user.welcomeMessage()
 user.username = "aaryan"
 user.welcomeMessage()
 
-//in node enviroment this will reffer empty object 
+//in node enviroment this will reffer empty object but in brower enviroment this will refer to window
 console.log(this);
 
 // function chai(){
@@ -30,12 +30,13 @@ console.log(this);
 // }
 // chai()
 
+//arrow fun
 
 // const chai =  () => {
 //     let username = "hitesh"
 //     console.log(this.username);
 // }
-// chai()
+// chai()  
 
 //arrow function 
 /* sytnex:- 
@@ -55,7 +56,8 @@ note: -if we wrap function defination in { } so we have write return other wise 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
-  
+
+//inplicit return
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
