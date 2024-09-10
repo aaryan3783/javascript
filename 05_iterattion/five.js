@@ -1,9 +1,14 @@
+// map:- 
+//callback fun.
+//automatically return value
+
 const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 // const newNums=myNumers.map((num)=>{
 //     return num + 10;
 // })
+
 
 //chaining 
 const newNums=myNumers
@@ -14,7 +19,11 @@ const newNums=myNumers
 
 console.log(newNums);
 
-//reduce method
+//reduce method:- 
+//take callback fun(accumulator, currentvalue).
+//styntex:- arry_name.reduce((accumulator, currentvalue)=>{
+// return },initail_value_accumulator)
+
 const myNums=[1,2,3]
 
 const myTotal=myNums.reduce((acc,currval)=>{
