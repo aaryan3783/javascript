@@ -6,6 +6,8 @@ const values=coding.forEach((item)=>{
 })
 // console.log(values);
 
+
+//filter :- 
 //filter takes a callback function
 //it return values according to condition
 
@@ -14,6 +16,8 @@ const myNums=[1,2,3,4,5,6,7,8,9]
 let newNums1=myNums.filter((num)=> (num>5))
 console.log(newNums1);
 
+
+//here we have to write return keyword because we have used { fun. body }.
 let newNums=myNums.filter((num)=>{
     return num<5;
 })
