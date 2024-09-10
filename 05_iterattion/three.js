@@ -27,6 +27,8 @@ for (const num in arr) {
 //contain unique element's only 
 //to set a key and value in map key must ke unique
 const map= new Map()
+
+//to set value in map:-
 map.set('IN','India')
 map.set('usa','united')
 map.set('fr','france')
@@ -36,9 +38,10 @@ map.set('IN','india')
 
 //for off loop on map
 for (const key of map) {
-    //print array of every key and value
+    //print  single single array of every key and value
     console.log(key);
 }
+
 
 for (const [key,value] of map) {
     console.log(key,";- ", value);
