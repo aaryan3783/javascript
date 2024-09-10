@@ -19,13 +19,14 @@ for (const greet of greetings) {
 for (const num in arr) {
     console.log(num);
 }
-//can be able to use but it gives keys of array elelemts 
+// for in loop can be able to use but it gives keys of array elelemts 
 
 //maps
 //Map() is an object 
 //it holds key and value pairs 
 //contain unique element's only 
 //to set a key and value in map key must ke unique
+//cannot be iteratable by using for in
 const map= new Map()
 
 //to set value in map:-
@@ -73,9 +74,9 @@ for (const key in myObj) {
 
 
 //for each loop
-//takes a callback function
+//takes a callback function reference:- means define what to do by the fun. in callback fun, there is no name of fun.
 const coding=['js','cpp','html','css']
-//syntex:-  coding.forEach( function ( array_element) {   } )
+//syntex:-  coding.forEach( function ( array_element) { fun. body } )
 coding.forEach( function (item){
 console.log(item);
 } )
