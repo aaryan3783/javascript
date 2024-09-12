@@ -7,6 +7,7 @@ class User {
         console.log(`Username: ${this.username}`);
     }
 
+    //method ko acess hr jgah nhi ena cahte hai...
     static createId(){
         return `123`
     }
