@@ -1,3 +1,9 @@
+//js is default protypal behaviour,  class and this all are becauz prototype
+//arrow fun ke under this ka acess nhi hai .
+
+
+
+
 // let myName = "hitesh     "
 // let mychannel = "chai     "
  
