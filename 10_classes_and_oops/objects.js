@@ -28,6 +28,7 @@ chai.printMe()
 
 
 /*
+new keyword
 
 Here's what happens behind the scenes when the new keyword is used:
 
